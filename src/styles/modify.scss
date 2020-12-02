@@ -1,0 +1,88 @@
+#app {
+  .app-wrapper {
+    .my-app-header {
+      .el-input__inner {
+        height: 35px;
+        line-height: 35px;
+      }
+    }
+    .my-app-aside {
+      .scroll-container {
+        ul, div, li, .el-menu-item {
+          /* color:  rgba(255, 255, 255, .3) !important;
+          background-color: transparent !important; */
+          width: 201px !important;
+        }
+        /* .el-submenu__title i {
+          color: rgba(255, 255, 255, .3) !important;
+        }
+        .is-active {
+          color: #fff !important;
+          .el-submenu__title > span {
+            color: #fff !important;
+          }
+        } */
+        .scroll-wrapper {
+          /* background-color: transparent !important; */
+          width: 200px !important;
+        }
+      }
+    }
+    .my-app-admin {
+      .app-admin {
+        overflow-y: auto;
+        height: calc(100vh - 112px);
+        .vxe-grid {
+            .vxe-form {
+              padding-left: 10px;
+            }
+        }
+      }
+    }
+    .bqwh-container {
+      .bqwh-content {
+        .vxe-form {
+          .el-input {
+            .el-input__inner {
+              height: 32px;
+              line-height: 32px;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    .table-container {
+      .el-card {
+        ul {
+          li {
+            .el-input--suffix {
+              .el-input__inner {
+                height: 28px;
+                line-height: 28px;
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .vxe-grid {
+    position: relative;
+    .vxe-grid--form-wrapper {
+      width: calc(100% - 1px);
+      .vxe-form {
+        padding-left: 20px;
+      }
+      .vxe-toolbar {
+        height: 0;
+        .vxe-tools--operate {
+          position: absolute;
+          right: 10px;
+          top: -44px;
+        }
+      }
+    }
+  }
+}

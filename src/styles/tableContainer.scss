@@ -1,0 +1,28 @@
+.table-container {
+  .el-card {
+    #page-title {
+      text-align: center;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      li {
+        margin-right: 20px;
+        .el-button-group {
+          .el-button {
+            padding: 8px 15px;
+          }
+        }
+      }
+    }
+  }
+  .down-table {
+    margin-top: 20px;
+    height: calc(100vh - 290px);
+  }
+}

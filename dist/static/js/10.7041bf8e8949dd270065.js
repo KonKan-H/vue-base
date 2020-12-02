@@ -1,0 +1,1 @@
+webpackJsonp([10],{"+L4n":function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var s=t("mDhO"),r=t.n(s),i={render:function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("This is user page.")])},staticRenderFns:[]},u=t("VU/8")(r.a,i,!1,null,null,null);n.default=u.exports},mDhO:function(e,n){}});

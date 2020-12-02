@@ -1,0 +1,1 @@
+webpackJsonp([12],{YW2P:function(e,t){},"zX9/":function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=n("YW2P"),r=n.n(i),s={render:function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("This is article page.")])},staticRenderFns:[]},l=n("VU/8")(r.a,s,!1,null,null,null);t.default=l.exports}});

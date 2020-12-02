@@ -1,0 +1,33 @@
+.table2-container {
+  .el-card {
+    h3 {
+      margin-top: 20px 0;
+    }
+    #page-title {
+      text-align: center;
+      margin: 0;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      li {
+        margin-right: 20px;
+      }
+    }
+  }
+  .table1-content {
+    margin: 20px 0;
+    .row {
+      margin-bottom: 10px;
+    }
+  }
+  .table2-content {
+    min-height: 300px;
+    .row {
+      margin-bottom: 10px;
+    }
+  }
+}
